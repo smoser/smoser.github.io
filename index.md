@@ -1,2 +1,4 @@
-# smoser index
-Hi this is my index
+# smoser's thoughts
+
+## blog entries
+ * [Use Network Manager in a container](blog/network-manager-in-container.md)

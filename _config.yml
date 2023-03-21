@@ -6,3 +6,6 @@ author: Scott Moser
 
 plugins:
   - jekyll-feed
+
+feeds:
+  tags: true

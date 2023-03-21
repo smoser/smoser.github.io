@@ -1,2 +1,8 @@
 ## blog entries
- * [Use Network Manager in a container](blog/network-manager-in-container.md)
+<ul>
+  {% for post in site.page %}
+    <li>
+      <a href="{{ page.permalink }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

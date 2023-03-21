@@ -1,4 +1,6 @@
-# Using network manager in an Ubuntu lxd container.
+---
+title: Using network manager in an Ubuntu lxd container.
+---
 For one reason or another you may want to use NetworkManager inside a
 container.  An lxd container of recent vintage Ubuntu release (18.04)
 will have cloud-init render networking through systemd-networkd.

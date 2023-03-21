@@ -2,3 +2,7 @@ title: smoser's thoughts
 description: A dumping ground for thoughts and writings by smoser.
 url: https://smoser.github.io/
 theme: jekyll-theme-dinky
+author: Scott Moser
+
+plugins:
+  - jekyll-feed

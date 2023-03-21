@@ -1,8 +1,8 @@
 ## blog entries
 <ul>
-  {% for post in site.page %}
+  {% for post in site.posts %}
     <li>
-      <a href="{{ page.permalink }}">{{ page.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

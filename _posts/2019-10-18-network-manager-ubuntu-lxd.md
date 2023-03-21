@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Using network manager in an Ubuntu lxd container.
 ---
 For one reason or another you may want to use NetworkManager inside a

@@ -35,6 +35,9 @@ window or terminal.
         isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
         echoctl echoke -flusho -extproc
 
+        $ echo $TERM
+        xterm
+
 
 Then tell linux inside qemu about it via `stty`:
 
@@ -43,5 +46,9 @@ Then tell linux inside qemu about it via `stty`:
     # now show what it is
     $ stty -a |head -n 1
     speed 115200 baud; rows 75; columns 120; line = 0;
+
+Last, you probably want to update your TERM variable :
+
+    $ export TERM=xterm
 
 Thats it.
